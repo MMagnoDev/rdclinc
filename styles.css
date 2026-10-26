@@ -270,8 +270,7 @@ strong {
 }
 
 .hero-logo-img {
-  width: 100%;
-  max-width: clamp(260px, 26vw, 360px);
+  width: clamp(110px, 10vw, 150px);
   height: auto;
   display: block;
 }
@@ -876,8 +875,8 @@ strong {
 }
 
 .footer-logo-mark {
-  width: 58px;
-  height: 58px;
+  width: 64px;
+  height: auto;
 }
 
 .footer-brand-title {
@@ -1076,7 +1075,7 @@ strong {
   }
 
   .hero-logo-img {
-    max-width: clamp(220px, 70vw, 300px);
+    width: clamp(96px, 28vw, 130px);
   }
 
   .hero-presentation {
