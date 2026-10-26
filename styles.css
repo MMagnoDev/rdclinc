@@ -435,8 +435,10 @@ strong {
 
 .specialties-swiper {
   width: 100%;
-  padding: 12px 6px 20px 6px;
-  overflow: visible;
+  /* Espaço vertical para o efeito de hover (translateY + sombra) não ser cortado */
+  padding: 14px 0 32px 0;
+  /* overflow: hidden evita cards cortados à esquerda e vazio à direita no modo loop */
+  overflow: hidden;
 }
 
 .specialties-swiper .swiper-slide {
