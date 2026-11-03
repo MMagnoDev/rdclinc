@@ -896,6 +896,29 @@ strong {
   color: var(--accent-gold);
 }
 
+.footer-info-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-body);
+  margin-top: 0.35rem;
+  text-align: center;
+}
+
+.footer-info-details a {
+  color: var(--text-main);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.25s ease;
+}
+
+.footer-info-details a:hover {
+  color: var(--accent-gold);
+}
+
 .footer-bottom {
   display: flex;
   flex-direction: column;
